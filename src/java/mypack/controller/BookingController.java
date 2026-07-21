@@ -19,7 +19,6 @@ import java.util.List;
 public class BookingController extends HttpServlet {
 
     private static final List<DramaShow> SHOWS = new ArrayList<>();
-
     static {
         SHOWS.add(new DramaShow(1, "The Phantom of the Opera", "Bóng Ma Trong Nhà Hát", "Grand Theater", 500000, "20:00 - 25/11/2026"));
         SHOWS.add(new DramaShow(2, "Les Misérables", "Những Người Khốn Khổ", "City Playhouse", 400000, "19:30 - 28/11/2026"));
